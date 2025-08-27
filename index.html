@@ -32,16 +32,16 @@
     </style>
 </head>
 <body class="w-screen h-screen">
-  <section class="bg-bacground-dark-blue h-3/5 w-full">
-    <header class="h-15 w-full px-20 py-3 items-center justify-between flex text-background-white font-main-700">
+  <section class="bg-bacground-dark-blue h-3/4 w-full">
+    <header class="h-15 w-full pl-20 pr-30 py-3 items-center justify-between flex text-background-white font-main-700">
       
       <div class="flex h-full w-2/4 justify-between">
         <a href="#" class="text-[1.5rem]">Brandname</a>
         <ul class="hidden lg:flex  items-center justify-between h-full w-2/4 text-[0.8rem] *:hover:border-b-2 *:hover:border-another-light-blue">
-          <li>Home</li>
-          <li>Product</li>
-          <li>Pricing</li>
-          <li>Contact</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
 
@@ -53,10 +53,28 @@
         </button>
       </div>
 
-      <div class=" block lg:hidden text-[3rem] flex items-center ml-20" >
+      <div class=" block  md:hidden lg:hidden text-[3rem] flex items-center ml-8" >
         <ion-icon name="menu-outline"></ion-icon>
       </div>
     </header>
+    
+    <div class="flex h-91  w-full pl-12 pr-10 gap-x-5">
+      <div class="mt-20 flex flex-col justify-between  h-60 w-2/4">
+        <h4 class="text-[0.8rem] font-main-700 text-primary">Welcome</h4>
+        <h1 class="text-[2rem] font-main-700 text-background-white">Best Learning<br> Opportunities</h1>
+        <p class="text-[1rem] font-main-400 text-background-white">Find the right instructor for you<br> from over 10,000 teachers</p>
+        <div class="flex text-[0.6rem] gap-x-2 font-main-700">
+          <button class="text-background-white bg-primary w-25 py-2 px-4 rounded-sm">Get Quote Now</button>
+          <button class="border border-primary text-primary w-25 py-2 px-4 rounded-sm">Learn More</button>
+        </div>
+      </div>
+
+      <div class="relative flex  items-center justify-end h-91 w-2/4">
+        <img class="absolute z-20 left-[8%] top-[60%]" width="130px" height="50px" src="assets/images/partie1/girl.svg" alt="girl">
+        <img class="absolute z-10 " width="200px" height="350px" src="assets/images/partie1/boy.svg" alt="boy">
+        <div class="absolute z-0 top-[13%] left-[85%] w-14 h-16 bg-primary"></div>
+      </div>
+    </div>
   </section>
 </body>
 </html>
