@@ -32,12 +32,12 @@
     </style>
 </head>
 <body class="overflow-x-hidden px-0 py-0 border-0 box-border w-screen h-screen">
-  <section class="bg-bacground-dark-blue  h-162  w-full">
-    <header class="h-15 w-full pl-4 pr-5 pt-3 items-center justify-between flex text-background-white font-main-700">
+  <section class="bg-bacground-dark-blue md:h-[29rem] lg:h-[39rem] h-[40rem]  w-full">
+    <header class="h-[3.5rem] w-full lg:pl-[7rem] pl-[2.5rem] lg:pr-[9rem] pr-[1rem] pt-[0.6rem] items-center justify-between flex text-background-white font-main-700">
       
-      <div class="flex h-full w-2/4 justify-between">
+      <div class="flex h-full w-2/4 justify-between md:w-[60%] sm:w-[75%] lg:w-[58%]">
         <a href="#" class="text-[1.5rem]">Brandname</a>
-        <ul class="hidden lg:flex items-center justify-between h-full w-2/4 text-[0.8rem] *:hover:border-b-2 *:hover:border-another-light-blue">
+        <ul class="hidden sm:flex lg:text-[1rem] lg:w-2/4 items-center justify-between h-full w-2/4 text-[0.9rem] *:hover:border-b-2 *:hover:border-another-light-blue">
           <li><a href="#">Home</a></li>
           <li><a href="#">Product</a></li>
           <li><a href="#">Pricing</a></li>
@@ -45,85 +45,139 @@
         </ul>
       </div>
 
-      <div class=" hidden lg:flex w-40 h-full flex items-center text-[0.8rem] gap-x-7">
-        <p>Login</p>
-        <button class="bg-primary w-50 h-10 px-4 flex items-center gap-x-1 rounded-md">
+      <div class="hidden md:flex lg:w-[12rem] lg:flex w-[10rem] h-full flex items-center text-[0.8rem] gap-x-[2rem] ">
+        <p><a href="#">Login</a></p>
+        <button class="bg-primary  py-[0.7rem] px-[1rem] flex items-center gap-x-[0.2rem] rounded-md  hover:bg-indigo-400 cursor-pointer duration-300 ease-in-out ">
           <h4>JOIN US</h4>
           <ion-icon name="arrow-forward-outline"></ion-icon>
         </button>
       </div>
 
-      <div class=" block lg:hidden text-[2rem] items-center justify-center ml-5" >
+      <div class=" block md:hidden lg:hidden  flex text-[3rem] items-center justify-center" >
         <ion-icon name="menu-outline"></ion-icon>
       </div>
     </header>
     
-    <div class=" flex flex-col h-146  w-full pl-10 pr-5 gap-y-5 -mt-15 ">
-      <div class="mt-20 flex flex-col justify-between  h-50 w-full">
-        <h4 class="text-[0.8rem] font-main-700 text-primary">Welcome</h4>
-        <h1 class="text-[2rem] font-main-700 text-background-white">Best Learning<br> Opportunities</h1>
-        <p class="text-[1rem] font-main-400 text-background-white">Find the right instructor for you<br> from over 10,000 teachers</p>
-        <div class="flex text-[0.6rem] gap-x-2 font-main-700">
-          <button class="text-background-white bg-primary w-25 py-2 px-4 rounded-sm">Get Quote Now</button>
-          <button class="border border-primary text-primary w-25 py-2 px-4 rounded-sm">Learn More</button>
+    <div class="md:flex-row flex flex-col md:h-[25rem] lg:h-[35rem] h-[35rem] w-full lg:pl-[5rem] pl-[2.5rem] lg:pr-[3rem] pr-[1.5rem] md:gap-x-[2%] gap-y-[5%]">
+      <div class="mt-[2rem] flex flex-col md:items-start items-center md:justify-center md:gap-y-[1rem] justify-between   h-[40%] md:h-[92%] md:w-2/4 lg:h-[90%] w-full">
+        <h4 class="lg:text-[1rem] text-[0.8rem] font-main-700 text-primary">Welcome</h4>
+        <h1 class="lg:text-[3rem] text-[2rem] font-main-700 text-background-white">Best Learning<br> Opportunities</h1>
+        <p class=" lg:text-[1.5rem] text-[1rem] font-main-400 text-background-white">Find the right instructor for you<br> from over 10,000 teachers</p>
+        <div class="flex lg:text-[1rem] text-[0.6rem] gap-x-[0.8rem] font-main-700">
+          <button class="text-background-white bg-primary px-[1.4rem] py-[0.6rem] rounded-sm">Get Quote Now</button>
+          <button class="border border-primary text-primary  py-[0.6rem] px-[2rem] rounded-sm">Learn More</button>
         </div>
       </div>
 
-      <div class=" flex items-center h-70 w-full">
-        <img class="w-60 h-90" src="assets/images/partie1/boy-girl.svg">
+      <div class="md:mt-[2rem]  lg:h-[90%] md:h-[92%] lg:justify-end flex items-center justify-center h-[18rem] md:w-2/4 w-full">
+        <img class=" md:w-[40rem] md:h-[20rem] lg:w-[40rem] lg:h-[30rem] w-[45rem] h-[18rem]" src="assets/images/partie1/boy-girl.svg">
       </div>
     </div>
   </section>
 
-  <section class=" flex flex-col-reverse  w-full h-147">
-    <div class="flex justify-center w-full h-73">
-      <img class="w-60 h-80 -mt-7" src="assets/images/partie2/girl.svg">
+  <section class="md:flex-row flex flex-col-reverse sm:gap-y-[0] gap-y-[0.9rem] lg:mt-[5rem] sm:mt-[2rem] mt-[4rem] md:gap-x-[2rem] lg:gap-x-[4rem] w-full  sm:h-[85%] md:h-[50%] lg:h-[82%] h-[89%] lg:pl-[4rem] px-[2rem]">
+    <div class="flex justify-center sm:h-[54%] md:h-[100%] lg:h-[100%] md:w-2/4 w-full h-[55%]">
+      <img class="md:w-[25rem] lg:w-[25rem] w-[20rem] md:h-[22rem] lg:h-[30rem] h-[20rem]" src="assets/images/partie2/girl.svg">
     </div>
 
-    <div class="flex flex-col pl-5 justify-center gap-y-3 w-full h-73"> 
+    <div class="flex flex-col sm:h-[42%] md:pl-[0rem] md:justify-center sm:pl-[6rem] md:items-start pl-[2rem] gap-y-[1rem] md:w-2/4  w-full md:h-[100%] lg:h-[100%] h-[45%]"> 
       <img width="55px" height="7px" src="assets/images/partie2/blue_line.svg">
-      <h1 class="text-[2rem] font-main-700 text-text">Every Client<br> Matters</h1>
-      <p class="text-[1rem] font-main-400 text-second-text">Problems trying to resolve the conflict between<br> the two major realms of Classical physics:<br> Newtonian mechanics </p>
-      <div class=" flex items-center text-[0.8rem] font-main-700 text-primary">
+      <h1 class="text-[1.9rem] md:text-[2rem] lg:text-[3rem]  font-main-700 text-text">Every Client<br> Matters</h1>
+      <p class="text-[1rem] lg:text-[1.5rem] font-main-400 text-second-text">Problems trying to resolve the conflict between<br> the two major realms of Classical physics:<br> Newtonian mechanics </p>
+      <div class=" flex items-center lg:text-[1rem] text-[0.8rem] font-main-700 text-primary">
         <h4>Learn More</h4>
         <ion-icon class="text-[1.5rem]" name="chevron-forward-outline"></ion-icon>
       </div>
     </div>
   </section>
 
-  <section class="flex flex-col w-full h-400" >
-    <div class="mt-10 flex flex-col pl-5 justify-between  h-35 w-full">
-      <h4 class="text-[0.8rem] font-main-700 text-primary">Practice Advice</h4>
-      <h1 class="text-[2rem] font-main-700 text-text">Every Client Matters</h1>
-      <p class="text-[1rem] font-main-400 text-second-text">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+  <section class="mt-[5rem] lg:px-[8rem] lg:gap-x-[5rem] lg:h-[110%] md:h-[73%] sm:h-[108%] md:flex-row md:gap-x-[2rem] md:px-[2rem]  flex flex-col h-[120%]">
+    <div class="flex md:justify-center sm:pl-[8rem] md:pl-[0] pl-[4rem] gap-y-[1rem] lg:h-[38rem]  sm:h-[16rem]  flex-col md:h-[32rem] h-[25rem] w-full">
+       <img width="55px" height="7px" src="assets/images/partie2/blue_line.svg">
+      <h1 class="text-[1.9rem] md:text-[2rem] lg:text-[3rem]  font-main-700 text-text">Our Popular Courses<br> Matters</h1>
+      <p class="text-[1rem] lg:text-[1.5rem] font-main-400 text-second-text">Problems trying to resolve the conflict between<br> the two major realms of Classical physics:<br> Newtonian mechanics </p>
+      <div class=" flex items-center lg:text-[1rem] text-[0.8rem] font-main-700 text-primary">
+        <h4>Learn More</h4>
+        <ion-icon class="text-[1.5rem]" name="chevron-forward-outline"></ion-icon>
+      </div>
     </div>
 
-    <section class=" px-5 mt-8 w-full flex flex-col justify-between h-350">
-      <div class="h-120 w-full">
+    <section class="flex lg:h-[38rem] lg:mt-[5rem] h-[32rem] md:px-[0] px-[1.5rem] justify-center lg:gap-x-[3rem] sm:gap-x-[2rem] gap-x-[1rem] w-full">
+      <div class="flex flex-col justify-between items-end  lg:h-[38rem] sm:h-[32rem] h-[30rem] w-2/4 gap-y-[1rem] ">
+        <div class="shadow-lg lg:w-[15rem] sm:w-[12rem] w-[10rem] lg:h-[20rem] sm:h-[15rem] h-[14rem] flex flex-col justify-center px-[1.5rem] gap-y-[0.8rem] rounded-md">
+          <div class="bg-[#F9FDFF] flex items-center justify-center h-[3rem] w-[3rem] rounded-md"><img width="25px" height="25px" src="assets/images/partie3/book_icon.svg" alt="book_icon"></div>
+          <h4 class="text-[0.9rem] font-main-700 ">Training Courses</h4>
+          <img height="3px" width="55px" src="assets/images/partie3/red_line.svg" alt="red_line">
+          <p class="text-[0.8rem] lg:text-[1.2rem] font-main-400 text-second-text">The gradual<br> accumulation of<br> information about </p>
+        </div>
+
+        <div class=" shadow-lg lg:w-[15rem] sm:w-[12rem] w-[10rem] lg:h-[20rem] sm:h-[15rem] h-[14rem] flex flex-col justify-center px-[1.5rem] gap-y-[0.8rem] rounded-md">
+          <div class="bg-[#DDEEFE] flex items-center justify-center h-[3rem] w-[3rem] rounded-md"><img width="25px" height="25px" src="assets/images/partie3/desktop_icon.svg" alt="desktop_icon"></div>
+          <h4 class="text-[0.9rem] font-main-700 ">Training Courses</h4>
+          <img height="3px" width="55px" src="assets/images/partie3/red_line.svg" alt="red_line">
+          <p class="text-[0.8rem] lg:text-[1.2rem] font-main-400 text-second-text">The gradual<br> accumulation of<br> information about </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-center sm:items-start  lg:h-[38rem] h-[30rem] w-2/4 gap-y-[1rem] sm:h-[32rem] ">
+        <div class="shadow-lg lg:w-[15rem] sm:w-[12rem] w-[10rem] sm:h-[15rem] lg:h-[20rem] h-[14rem] flex flex-col justify-center px-[1.5rem] gap-y-[0.8rem] rounded-md">
+          <div class="bg-[#B6D7FF] flex items-center justify-center h-[3rem] w-[3rem] rounded-md"><img width="25px" height="25px" src="assets/images/partie3/dictionary_icon.svg" alt="dictionary_icon"></div>
+          <h4 class="text-[0.9rem] font-main-700 ">Training Courses</h4>
+          <img height="3px" width="55px" src="assets/images/partie3/red_line.svg" alt="red_line">
+          <p class="text-[0.8rem] lg:text-[1.2rem] font-main-400 text-second-text">The gradual<br> accumulation of<br> information about </p>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <section class="flex flex-col lg:flex-row lg:h-[3rem] lg:mt-[15rem] md:mt-[12rem] sm:mt-[10rem] mt-[9rem] h-[7rem] justify-between w-full ">
+    <div class="lg:pl-[8rem] flex items-center justify-around h-[3rem] w-full">
+      <a href="#"><img width="90px" height="30px" src="assets/images/partie4/icon1.svg" alt="icon1"></a>
+      <a href="#"><img width="50px" height="28px" src="assets/images/partie4/icon2.svg" alt="icon2"></a>
+      <a href="#"><img width="55px" height="28px" src="assets/images/partie4/icon3.svg" alt="icon3"></a>
+    </div>
+
+    <div class="lg:pr-[8rem] flex items-center justify-around h-[3rem] w-full">
+      <a href="#"><img width="65px" height="30px" src="assets/images/partie4/icon4.svg" alt="icon4"></a>
+      <a href="#"><img width="60px" height="30px" src="assets/images/partie4/icon5.svg" alt="icon5"></a>
+      <a href="#"><img width="45px" height="30px" src="assets/images/partie4/icon6.svg" alt="icon6"></a>
+    </div>
+  </section>
+
+  <section class="flex flex-col w-full md:h-[43rem] h-[107rem] lg:mt-[10rem] mt-[8rem]" >
+    <div class="flex flex-col lg:pl-[6rem] md:items-start md:pl-[2rem] justify-between items-center  h-[8rem] w-full">
+      <h4 class="text-[0.9rem] lg:text-[1rem] font-main-700 text-primary">Practice Advice</h4>
+      <h1 class="text-[2rem] lg:text-[3rem] font-main-700 text-text">Every Client Matters</h1>
+      <p class="text-[1rem] lg:-text[1.5rem] font-main-400 text-second-text">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+    </div>
+
+    <section class="mt-[3rem] w-full md:flex-row flex flex-col gap-y-[3rem] md:gap-x-[1rem] md:px-[2rem] justify-between md:h-[31rem] h-[95rem]">
+      <div class="flex flex-col items-center h-[30rem] md:w-2/4 w-full">
         <div>
           <img width="220px" height="130px" src="assets/images/partie5/crayon_couleur.svg">
         </div>
 
-        <div class="mt-3">
-          <div class="flex gap-x-15">
-            <h4 class="text-[0.8rem] font-main-700 text-primary">Training Courses</h4>
+        <div class="mt-[1.5rem] h-[15rem] lg:pl-[3rem]">
+          <div class="flex lg:gap-x-[3rem] gap-x-[5.5rem]">
+            <h4 class="text-[0.8rem] lg:text-[1rem] font-main-700 text-primary">Training Courses</h4>
             <img width="42px" height="25px" src="assets/images/partie5/bouton.svg">
           </div>
 
-          <div class="mt-1 flex flex-col h-52 justify-between">
+          <div class="mt-[0.2rem] flex flex-col h-[14rem] justify-between">
             <h1 class="text-[1.2rem] font-main-700 text-text">Watch our Courses</h1>
             <p class="text-[1rem] font-main-400 text-second-text">We focus on ergonomics and meeting<br> you where you work. It's only a<br> keystroke away.</p>
-            <div class="flex gap-x-2">
+            <div class="flex gap-x-[0.8rem]">
               <img src="assets/images/partie5/download.svg">
               <p class="text-[1rem] font-main-700 text-second-text">15 Sales</p>
             </div>
-            <div class="flex gap-x-2">
+            <div class="flex gap-x-[0.8rem]">
               <p class="text-[1rem] font-main-700 text-grey">$16.48</p>
               <p class="text-[1rem] font-main-700 text-green">$16.48</p>
             </div>
 
             <div  class="text-[0.8rem] font-main-700 text-primary" >
-              <button class="flex items-center border border-primary rounded-full px-3 py-1">
+              <button class="flex items-center border border-primary rounded-full px-[0.8rem] py-[0.2rem]">
                 Learn More
                 <ion-icon class="text-[1.5rem]" name="chevron-forward-outline"></ion-icon>
               </button>
@@ -133,31 +187,31 @@
         </div>
       </div>
 
-      <div class="h-120 w-full">
+      <div class="flex flex-col items-center h-[30rem] w-full md:w-2/4">
         <div>
           <img width="225px" height="130px" src="assets/images/partie5/boxes.svg">
         </div>
 
-        <div class="mt-3">
-          <div class="flex gap-x-15">
-            <h4 class="text-[0.8rem] font-main-700 text-primary">Training Courses</h4>
+        <div class="mt-[1.5rem] h-[15rem] lg:pl-[3rem]">
+          <div class="flex lg:gap-x-[3rem] gap-x-[5.5rem]">
+            <h4 class="text-[0.8rem] lg:text-[1rem] font-main-700 text-primary">Training Courses</h4>
             <img width="42px" height="25px" src="assets/images/partie5/bouton.svg">
           </div>
 
-          <div class="mt-1 flex flex-col h-52 justify-between">
+          <div class="h-[14rem] mt-[0.2rem] flex flex-col justify-between">
             <h1 class="text-[1.2rem] font-main-700 text-text">Video in Live Action</h1>
             <p class="text-[1rem] font-main-400 text-second-text">We focus on ergonomics and meeting<br> you where you work. It's only a<br> keystroke away.</p>
-            <div class="flex gap-x-2">
+            <div class="flex gap-x-[0.8rem]">
               <img src="assets/images/partie5/download.svg">
               <p class="text-[1rem] font-main-700 text-second-text">15 Sales</p>
             </div>
-            <div class="flex gap-x-2">
+            <div class="flex gap-x-[0.8rem]">
               <p class="text-[1rem] font-main-700 text-grey">$16.48</p>
               <p class="text-[1rem] font-main-700 text-green">$16.48</p>
             </div>
 
             <div  class="text-[0.8rem] font-main-700 text-primary" >
-              <button class="flex items-center border border-primary rounded-full px-3 py-1">
+              <button class="flex items-center border border-primary rounded-full px-[0.8rem] py-[0.2rem]">
                 Learn More
                 <ion-icon class="text-[1.5rem]" name="chevron-forward-outline"></ion-icon>
               </button>
@@ -167,17 +221,17 @@
       </div>
 
 
-      <div class="h-120 w-full">
+      <div class="flex flex-col items-center h-[30rem] md:w-2/4 w-full">
         <div>
           <img  width="220px" height="130px" src="assets/images/partie5/book.svg">
         </div>
-         <div class="mt-3">
-          <div class="flex gap-x-15">
-            <h4 class="text-[0.8rem] font-main-700 text-primary">2,769 online courses	</h4>
+         <div class="mt-[1.5rem] h-[15rem] lg:pl-[3rem]">
+          <div class="flex lg:gap-x-[2rem] gap-x-[4rem]">
+            <h4 class="text-[0.8rem] lg:text-[1rem] font-main-700 text-primary">2,769 online courses	</h4>
             <img width="42px" height="25px" src="assets/images/partie5/bouton.svg">
           </div>
 
-          <div class="mt-1 flex flex-col h-52 justify-between">
+          <div class="h-[14rem] mt-[0.2rem] flex flex-col justify-between">
             <h1 class="text-[1.2rem] font-main-700 text-text">Approdable Packages</h1>
             <p class="text-[1rem] font-main-400 text-second-text">We focus on ergonomics and meeting<br> you where you work. It's only a<br> keystroke away.</p>
             <div class="flex gap-x-2">
@@ -190,7 +244,7 @@
             </div>
 
             <div  class="text-[0.8rem] font-main-700 text-primary" >
-              <button class="flex items-center border border-primary rounded-full px-3 py-1">
+              <button class="flex items-center border border-primary rounded-full px-[0.8rem] py-[0.2rem]">
                 Learn More
                 <ion-icon class="text-[1.5rem]" name="chevron-forward-outline"></ion-icon>
               </button>
